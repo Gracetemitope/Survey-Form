@@ -1,0 +1,14 @@
+#image {
+<<<<<<< HEAD
+  position: relative;
+  max-width: 100%;
+}
+=======
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+>>>>>>> 74f28d74f05b788fe19050411ca16c0af69cafb9
