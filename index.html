@@ -10,12 +10,35 @@
    <h1 id="title">SURVEY FORM</h1>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae incidunt ipsa neque veniam perspiciatis reiciendis sit.</p>
   <form id="survey-form">
-    <label id="name-label" for="name">Name</label>
-      <input type="text" id="name" placeholder="Enter your name">
-    <label id="email-label" for="email">E-Mail</label>
-      <input type="email" id="email" placeholder="Enter your e-mail" required/>
-    <label id="number-label" for="number">Phone Number</label>
-      <input type="number" id="number" placeholder="Enter your phone number" required/>
+    <label id="name-label" for="name">Name</label> <br>
+      <input type="text" id="name" placeholder="Enter your name"> <br>
+    <label id="email-label" for="email">E-Mail</label> <br>
+      <input type="email" id="email" placeholder="Enter your e-mail" required/> <br>
+    <label id="number-label" for="number">Phone Number</label> <br>
+      <input type="number" id="number" placeholder="Enter your phone number" required/> <br>
+      <label>Select Your country</label> <br>
+      <select id=“dropdown” name=“country”>
+        <option disabled=“” selected=“” value=“”>Select a country</option>
+        <option value=“spain”>
+        Spain
+        </option>
+        </select>
+        <br>
+        <label>Male</label>
+        <input type="radio" placeholder="Male" attribute="name" />
+        <br>
+        <label>Female</label>
+        <input type="radio" placeholder="Male" />
+        <br>
+        <label>Male</label>
+        <input type="checkbox" value="Male" />
+        <br>
+        <label>Male</label>
+        <input type=checkbox placeholder="Male"value="Male" />
+        <br>
+        <label>Additional comment</label>
+        <input class="story" id="textarea" placeholder="Enter comment"/>
+        <button id="submit">Submit</button>
   </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
